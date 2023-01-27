@@ -1,0 +1,28 @@
+:root {
+    --positionX: 40px;
+    --positionY: 190px;
+}
+
+.field {
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 640px;
+    height: 400px;
+    background-color: green;
+}
+
+.ball {
+    position: absolute;
+    left: var(--positionX);
+    top: var(--positionY);
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
