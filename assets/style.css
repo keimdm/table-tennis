@@ -2,6 +2,7 @@
     --positionX: 40px;
     --positionY: 190px;
     --playerPositionY: 0px;
+    --opponentPositionY: 0px;
 }
 
 .window {
@@ -85,4 +86,13 @@
     width: 20px;
     height: 60px;
     background-color: darkblue;
+}
+
+.opponent {
+    position: absolute;
+    left: 600px;
+    top: var(--opponentPositionY);
+    width: 20px;
+    height: 60px;
+    background-color: darkred;
 }
