@@ -1,6 +1,7 @@
 :root {
     --positionX: 40px;
     --positionY: 190px;
+    --playerPositionY: 0px;
 }
 
 .window {
@@ -75,4 +76,13 @@
     font-family: "Arial";
     color: white;
     text-align: center;
+}
+
+.player {
+    position: absolute;
+    left: 20px;
+    top: var(--playerPositionY);
+    width: 20px;
+    height: 60px;
+    background-color: darkblue;
 }
