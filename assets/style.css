@@ -16,19 +16,30 @@
     left: 0px;
     top: 0px;
     width: 740px;
-    height: 550px;
+    height: 500px;
     background-color: black;
+}
+
+.title {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 640px;
+    font-family: "Arial";
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
 
 .playerScore {
     position: absolute;
     left: 50px;
-    top: 450px;
+    top: 460px;
     width: 320px;
     font-family: "Arial";
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
-    color: white;
+    color: lightseagreen;
 }
 
 
@@ -36,12 +47,12 @@
 .computerScore {
     position: absolute;
     left: 370px;
-    top: 450px;
+    top: 460px;
     width: 320px;
     font-family: "Arial";
-    font-size: 25px;
+    font-size: 20px;
     text-align: right;
-    color: white;
+    color: lightcoral;
 }
 
 .field {
@@ -56,7 +67,9 @@
     top: 0px;
     width: 640px;
     height: 400px;
-    background-color: green;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
 }
 
 .ball {
@@ -85,7 +98,7 @@
     top: var(--playerPositionY);
     width: 20px;
     height: 60px;
-    background-color: darkblue;
+    background-color: lightseagreen;
 }
 
 .opponent {
@@ -94,5 +107,5 @@
     top: var(--opponentPositionY);
     width: 20px;
     height: 60px;
-    background-color: darkred;
+    background-color: lightcoral;
 }
